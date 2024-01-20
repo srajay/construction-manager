@@ -57,12 +57,15 @@ const SideNavbar = () => {
       <div className="l-navbar" id="nav-bar">
         <nav className="nav container-with-scroll">
           <div>
-            <Link to="/" className="nav_logo">
-              <i className="bx bx-layer nav_logo-icon"></i>
-              <span className="nav_logo-name">Construction</span>
-            </Link>
+            <div className="nav_logo-name">Construction</div>
+
             <div className="nav_list">
               <Link to="/" className="nav_link active">
+                <i class="bx bx-clipboard nav_icon"></i>
+                <span className="nav_name">Portfolio</span>
+              </Link>
+
+              <Link to="/dashboard" className="nav_link">
                 <i className="bx bx-grid-alt nav_icon"></i>
                 <span className="nav_name">Dashboard</span>
               </Link>
@@ -78,43 +81,43 @@ const SideNavbar = () => {
                 <i className="bx bx-dollar nav_icon"></i>
                 <span className="nav_name">Cost</span>
               </Link>
-              <Link to="resource" className="nav_link">
+              <Link to="/resource" className="nav_link">
                 <i className="bx bx-hard-hat nav_icon"></i>
                 <span className="nav_name">Resources</span>
               </Link>
-              <Link to="procurement" className="nav_link">
+              <Link to="/procurement" className="nav_link">
                 <i className="bx bx-purchase-tag-alt nav_icon"></i>
                 <span className="nav_name">Procurement</span>
               </Link>
-              <Link to="freeissuematerial" className="nav_link">
+              <Link to="/freeissuematerial" className="nav_link">
                 <i className="bx bx-cart nav_icon"></i>
                 <span className="nav_name">Free issue material</span>
               </Link>
-              <Link to="materialstore" className="nav_link">
+              <Link to="/materialstore" className="nav_link">
                 <i className="bx bx-store nav_icon"></i>
                 <span className="nav_name">Material Store</span>
               </Link>
-              <Link to="prefabrication" className="nav_link">
+              <Link to="/prefabrication" className="nav_link">
                 <i className="bx bx-bar-chart-alt-2 nav_icon"></i>
                 <span className="nav_name">PreFabrication</span>
               </Link>
-              <Link to="equipment" className="nav_link">
+              <Link to="/equipment" className="nav_link">
                 <i className="bx bxs-component nav_icon"></i>
                 <span className="nav_name">Equipment</span>
               </Link>
-              <Link to="consignment" className="nav_link">
+              <Link to="/consignment" className="nav_link">
                 <i className="bx bx-transfer nav_icon"></i>
                 <span className="nav_name">Consignment</span>
               </Link>
-              <Link to="scaffolding" className="nav_link">
+              <Link to="/scaffolding" className="nav_link">
                 <i className="bx bx-objects-vertical-center nav_icon"></i>
                 <span className="nav_name">Scaffolding</span>
               </Link>
-              <Link to="siteinstallation" className="nav_link">
+              <Link to="/siteinstallation" className="nav_link">
                 <i className="bx bx-building-house nav_icon"></i>
                 <span className="nav_name">Site Installation</span>
               </Link>
-              <Link to="report" className="nav_link">
+              <Link to="/report" className="nav_link">
                 <i className="bx bxs-pie-chart-alt nav_icon"></i>
                 <span className="nav_name">Reports</span>
               </Link>

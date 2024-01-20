@@ -97,6 +97,9 @@ a {
   color: var(--white-color);
   font-weight: 700;
 }
+.nav_list {
+  margin-top: 40px;
+}
 .nav_link {
   position: relative;
   color: var(--first-color-light);

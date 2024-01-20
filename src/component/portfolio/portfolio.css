@@ -1,25 +1,30 @@
-.schedule {
+.portfolio {
   padding: 20px;
 }
 
-.schedule_mid-menu {
+.portfolio-header {
   display: flex;
-  column-gap: 30px;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
-.schedule_mid-menu a {
-  text-decoration: none;
-  color: #787878;
+.portfolio-header btn:hover {
+  width: 200px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: var(--first-color);
+  color: #fff;
 }
-.schedule_mid-menu a .active {
-  color: var(--first-color);
-}
-
-/* schedule-route */
-.schedule-route {
+.search-project {
   margin-top: 30px;
 }
+.search-project input {
+  width: 300px;
+}
+
+.project-list {
+  margin-top: 30px;
+  overflow: scroll;
+}
+
 /* Modal styles */
 .modal {
   display: block;

@@ -1,0 +1,31 @@
+.table {
+  text-align: left;
+}
+
+.priority-select {
+  border-style: none;
+}
+.sub-task {
+  margin-top: 5px;
+}
+.sub-task > ol > li {
+  margin-top: 5px;
+}
+.sub-duration {
+  margin-top: 5px;
+}
+
+.sub-duration > ul > li {
+  list-style: none;
+  margin-top: 5px;
+}
+.sub_start-date {
+  margin-top: 5px;
+}
+.sub_start-date > ul > li {
+  list-style: none;
+  margin-top: 5px;
+}
+.sub-priority {
+  margin-top: 5px;
+}

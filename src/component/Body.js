@@ -14,14 +14,17 @@ import Consignment from "./consignment/Consignment";
 import Scaffolding from "./scaffolding/Scaffolding";
 import SiteInstallation from "./siteinstallation/SiteInstallation";
 import Reports from "./reports/Reports";
+import Portfolio from "./portfolio/Portfolio";
 
 const Body = () => {
   return (
     <>
       <Routes>
-        <Route path="/" exact element={<Dashboard />}></Route>
+        <Route path="/" exact element={<Portfolio />}></Route>
+        <Route path="/dashboard" exact element={<Dashboard />}></Route>
         <Route path="/document" exact element={<Document />}></Route>
-        <Route path="/schedule" exact element={<Schedule />}></Route>
+        <Route path="/schedule/*" exact element={<Schedule />}></Route>
+
         <Route path="/cost" exact element={<Cost />}></Route>
         <Route path="/resource" exact element={<Resources />}></Route>
         <Route path="/procurement" exact element={<Procurement />}></Route>

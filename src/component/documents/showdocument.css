@@ -1,11 +1,15 @@
-.show-document {
-  padding-top: 20px;
+.showdocument-container {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
 }
 .showdocument-content {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-  overflow: scroll;
+  padding-top: 20px;
+  border: 2px solid #787878;
 }
 
 .create-document {
